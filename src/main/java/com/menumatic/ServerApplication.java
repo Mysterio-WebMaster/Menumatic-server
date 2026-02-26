@@ -1,4 +1,4 @@
-package com.menumatic.server;
+package com.menumatic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

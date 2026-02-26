@@ -1,4 +1,4 @@
-package com.menumatic.server;
+package com.menumatic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
