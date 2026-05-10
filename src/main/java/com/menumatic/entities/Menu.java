@@ -14,6 +14,8 @@ public class Menu {
     private String item_category;
     private String item_name;
     private BigDecimal item_price;
+    private String item_description;
+    private String veg_non_veg;
 
     public Long getItem_id() {
         return item_id;
@@ -45,5 +47,21 @@ public class Menu {
 
     public void setItem_price(BigDecimal item_price) {
         this.item_price = item_price;
+    }
+
+    public String getVeg_non_veg() {
+        return veg_non_veg;
+    }
+
+    public void setVeg_non_veg(String veg_non_veg) {
+        this.veg_non_veg = veg_non_veg;
+    }
+
+    public String getItem_description() {
+        return item_description;
+    }
+
+    public void setItem_description(String item_description) {
+        this.item_description = item_description;
     }
 }
